@@ -8,6 +8,8 @@ def bubble_sort(items):
                 items[j], items[j+1] = items[j+1], items[j]
     return items
 
+bubble_sort([10, 91, 2, 13, 3, 1])
+
 def merge(A, B):
     new_list = []
     while len(A) > 0 and len(B) > 0:
@@ -79,3 +81,5 @@ def quick_sort(items):
     large = quick_sort(large)
 
     return small + dup + large
+
+quick_sort([10, 91, 2, 13, 3, 1])

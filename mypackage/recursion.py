@@ -1,15 +1,19 @@
 def sum_array(array):
 
     '''Return sum of all items in array'''
-    sum[array]
+    return sum(array)
+
+sum_array([0,0,1])
 
 def fibonacci(n):
 
     '''Return nth term in fibonacci sequence'''
     if  n <= 1:
-        return
+        return n
     else:
         return fibonacci(n-1) + fibonacci(n-2)
+
+fibonacci(5)
 
 def factorial(n):
 
